@@ -1,0 +1,18 @@
+$body-bg: #111;
+
+$body-color: rgba(54, 163, 50, 0.9);
+
+$fontsize: 22px;
+
+$theme-colors: (
+  'primary': #166285,
+  'secondary': #4f4f52,
+  'success': #577717,
+  'info': #3f7679,
+  'warning': #ac5b2c,
+  'danger': #88193a,
+  'light': #c8c8c8,
+  'dark': #2f2f2f
+);
+
+@import 'bootstrap/scss/bootstrap';
