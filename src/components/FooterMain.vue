@@ -16,7 +16,6 @@
   <div id="footer-container">
     <div id="footer-display">
       <img alt="" src="/assets/lorem-finance.png" />
-
       <div id="footer-boxes">
         <div class="footer-box">
           <h4>Company</h4>

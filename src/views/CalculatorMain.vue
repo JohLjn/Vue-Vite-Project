@@ -165,7 +165,7 @@
       <ChildComponent @increase-rate="increaseRate" />
       <h3>Så hade du istället fått:</h3>
       <h2>{{ newFutureValue }} kr</h2>
-      <p style="font-style: italic;">(Krånglar lite med custom events)</p>
+      <p style="font-style: italic">(Krånglar lite med custom events)</p>
     </div>
   </div>
 </template>
@@ -217,7 +217,6 @@
 
   input[type='range'] {
     height: 34px;
-    -webkit-appearance: none;
     margin: 10px 0;
     width: 100%;
     background-color: #ffffff;
@@ -229,7 +228,6 @@
     width: 100%;
     height: 12px;
     cursor: pointer;
-    animate: 0.2s;
     background: rgba(96, 236, 103, 0.5);
     border-radius: 5px;
   }
@@ -247,7 +245,6 @@
     width: 100%;
     height: 12px;
     cursor: pointer;
-    animate: 0.2s;
     background: rgba(96, 236, 103, 0.5);
     border-radius: 5px;
   }
@@ -257,7 +254,6 @@
     border-radius: 23px;
     background: #61cc61;
     cursor: pointer;
-    -webkit-appearance: none;
     margin-top: -7px;
   }
 

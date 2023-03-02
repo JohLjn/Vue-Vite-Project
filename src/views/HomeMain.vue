@@ -171,7 +171,6 @@
           <input name="company" class="form-input" />
         </div>
       </div>
-
       <div id="checkbox-container">
         <h3>Intresse:</h3>
         <div class="checkbox-alt">

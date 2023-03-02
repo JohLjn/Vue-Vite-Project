@@ -1,5 +1,6 @@
 <script>
   export default {
+    emits: ['increase-rate'],
     data() {
       return {
         increaseInterestedrate: 7
@@ -48,7 +49,6 @@
 
   input[type='range'] {
     height: 34px;
-    -webkit-appearance: none;
     margin: 10px 0;
     width: 50%;
     background-color: #ffffff;
@@ -60,7 +60,6 @@
     width: 50%;
     height: 12px;
     cursor: pointer;
-    animate: 0.2s;
     background: rgba(96, 236, 103, 0.5);
     border-radius: 5px;
   }
@@ -78,7 +77,6 @@
     width: 100%;
     height: 12px;
     cursor: pointer;
-    animate: 0.2s;
     background: rgba(96, 236, 103, 0.5);
     border-radius: 5px;
   }
@@ -88,7 +86,6 @@
     border-radius: 23px;
     background: #61cc61;
     cursor: pointer;
-    -webkit-appearance: none;
     margin-top: -7px;
   }
 </style>
